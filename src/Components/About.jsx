@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/lighthouse.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "image background of lighthouse";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -31,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Software Engineering",
+  "Cyber Security",
+  "Web Security",
+  "Malware Analysis and Reverse Engineering",
+  "Writer",
+ 
 ];
 
 /**
@@ -45,7 +45,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am an undergraduate software engineering student. Skilled in Cyber Security, Web Security, Penetration Testing, Cloud Security, Malware Analysis and Reverse Engineering. Strong engineering professional with a Bachelor of Science - BS focused in Computer Software Engineering from Barnett Technical University.";
 
 const About = () => {
   return (
